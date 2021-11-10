@@ -1,0 +1,22 @@
+body {font-family: Arial;margin: 0;}
+.head {padding: 20px; text-align: center; color: #000000;}
+.head { background-image: url('DISTRIBUTORBERAS2.png'); background-repeat: no-repeat; background-size: cover;}
+.head h1 {font-size: 80px;}
+.navigbar {overflow: hidden; background-color: #7b7b8e; }
+.navigbar a {float: left; display: block;color: white; text-align: center; padding: 14px 20px; }
+.navigbar a:hover {background-color: #d1d17b; color: white;}
+.navigbar a.right {
+  float: right;
+}
+.baris {display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap;}
+.main { flex: 100%;color: black; background-color: #ffebeb; padding: 20px;}
+  /*mengatur letak teks*/
+  #hp{float: left; margin: 0 20px 0 0; }
+.footer {color: white; padding: 5px; text-align: center; background: #7b7b8e;}
+      /*membuat link tidak berubah warna*/
+      a {text-decoration: none;}
+      a:link, a:visited
+      {color: white;}
+      /*hover memperbesar tulisan*/
+      a:hover
+      {font-size:150%;}

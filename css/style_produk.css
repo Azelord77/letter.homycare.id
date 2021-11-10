@@ -1,0 +1,84 @@
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Style body */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        /* Style navbar */
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* Style a navbar */
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        /*merubah warna hover di navbar */
+        .navbar a:hover {
+            background-color: #7da124;
+            color: black;
+        }
+
+        /* Main kolom */
+        .main {
+            -ms-flex: 70%;
+            /* IE10 */
+            flex: 70%;
+            color: black;
+            background-color: white;
+            padding: 20px;
+        }
+
+        /*membuat teks disebelah gambar*/
+        #hp  {
+            float: left;    
+            margin: 0 15px 0 0;
+        }
+
+        /*media*/
+        @media screen and (max-width: 50px) {
+        .column {
+            width: 100%;
+            display: block;
+        }
+        }
+
+        /*membuat style button*/
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 10px;
+            color: white;
+            background-color: #000;
+            font-size: medium;
+            text-align: center;
+            cursor: pointer;
+            width: 10%;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        /*membuat link tidak berubah warna*/
+        a {
+            text-decoration: none;
+        }
+        a:link, a:visited {
+            color: white;
+        }
+        a:hover {
+            color: white;
+        }
